@@ -17,6 +17,11 @@ const Foods = ({foodsPromise}) => {
         <div>
            <h2>Today's Selection: {foods.meals.length}</h2>
            <h2>Setected List: {selectOrdered.length}</h2>
+           <ol>
+            {
+                selectOrdered.map(meal=> <li>{meal.strMeal}</li>)
+            }
+           </ol>
            <div className='foods'>
            {
             foods.meals.map(meal=><Food meal={meal}
