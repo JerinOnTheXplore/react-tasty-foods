@@ -10,7 +10,9 @@ const Food = ({meal,handleOrdered}) => {
     }
     return (
         <div className={`food ${ordered && 'card'}`}>
+        <div>
         <img className='food-img' src={meal.strMealThumb} alt="" />
+        </div>
         <h2>Flavours to try: {meal.strMeal} </h2>
         <button onClick={handleOrderedMeals}>{ordered ? 'Selected':'Select Now'}</button>
         

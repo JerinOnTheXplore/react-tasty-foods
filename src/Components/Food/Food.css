@@ -3,8 +3,9 @@
     padding: 15px;
 }
 .food-img{
-    width: 250px;
+    width: 330px;
     border-radius: 10px;
+    text-align: center;
 }
 .card{
     background-color: dimgrey;
