@@ -1,0 +1,11 @@
+.food{
+    border: 3px solid cadetblue;
+    padding: 15px;
+}
+.food-img{
+    width: 250px;
+    border-radius: 10px;
+}
+.card{
+    background-color: dimgrey;
+}
